@@ -1,0 +1,22 @@
+.welcome {
+  width: 100vw;
+  height: 100vh;
+  background-color: rgba(0, 0, 0, 0.9);
+  position: absolute;
+  z-index: 1000;
+  @include flex($dir: column, $just: center, $align: center);
+  color: $white;
+  transition: height 0.9s ease-in;
+}
+
+.welcome_text {
+  @include flex($dir: column, $just: center, $align: center);
+}
+
+.hide {
+  height: 0vh;
+}
+
+.hidden {
+  display: none;
+}

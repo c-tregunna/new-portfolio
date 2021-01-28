@@ -1,0 +1,12 @@
+body {
+  background-color: $white;
+  font-family: $main-font;
+  min-height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+h1 {
+  font-family: $heading-font;
+}
