@@ -1,5 +1,7 @@
 .img-container {
   width: 100vw;
+  max-width: 1300px;
+  margin: auto;
   height: 100vh;
   display: flex;
   flex-direction: column;
@@ -62,8 +64,4 @@
 .img4 {
   //   background-image: url("https://placeimg.com/1000/1000/people");
   background-image: url("../images/photography.jpg");
-}
-
-.img5 {
-  background-image: url("https://placeimg.com/1000/1000/tech");
 }

@@ -6,5 +6,5 @@ document.addEventListener('DOMContentLoaded', function() {
         overlay.classList.add('hide');
         welcomeText.classList.add('hidden');
         // alert('Page is loaded');
-	}, 6000);
+	}, 5000);
 });
